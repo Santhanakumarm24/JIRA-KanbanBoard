@@ -20,7 +20,7 @@ function App() {
     const checkAuthStatus = async () => {
       try {
         // The browser automatically sends the session cookie with this request
-        const response = await fetch('https://agile-kanban-dashboard.onrender.com/api/auth/status', {
+        const response = await fetch('https://jira-kanbanboard.onrender.com/api/auth/status', {
           credentials: 'include',
         });
         if (response.ok) { // `response.ok` is true for a 200-299 status code
