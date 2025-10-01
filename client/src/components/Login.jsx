@@ -5,7 +5,7 @@ const Login = () => {
 
     const handleLogin = () => {
         // Redirect to your Node.js backend's login route
-        window.location.href = `https://agile-kanban-dashboard.onrender.com/auth/github`;
+        window.location.href = `https://jira-kanbanboard.onrender.com/auth/github`;
     };
     return (
         <div>
