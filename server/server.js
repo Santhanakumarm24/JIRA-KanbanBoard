@@ -12,7 +12,7 @@ const app = express();
 
 app.set('trust proxy', 1);
 const corsOptions = {
-  origin: 'https://srinithi06-ilangovan.github.io', // Your React app's URL
+  origin: 'https://santhanakumarm24.github.io', // Your React app's URL
   credentials: true, // This is crucial for sending and receiving cookies
 };
 app.use(cors(corsOptions));
@@ -128,7 +128,7 @@ const checkCollaboratorStatus = async (accessToken, req, res) => {
     req.session.username = username;
 
 
-    res.redirect(`https://srinithi06-ilangovan.github.io/BB-dashboard/?auth=success`);
+    res.redirect(`https://santhanakumarm24.github.io/JIRA-KanbanBoard/?auth=success`);
   } catch (error) {
     if (error.response && error.response.status === 404) {
       console.error('Error checking collaborator status:', error.response.data);
