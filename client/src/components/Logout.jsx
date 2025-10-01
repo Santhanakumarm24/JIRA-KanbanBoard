@@ -5,7 +5,7 @@ const Logout = () => {
 
     const handleLogout = async () => {
         try {
-            const response = await fetch('https://agile-kanban-dashboard.onrender.com/api/logout', {
+            const response = await fetch('https://jira-kanbanboard.onrender.com/api/logout', {
                 method: 'POST',
                 credentials: 'include', // Make sure to send the session cookie
             });
